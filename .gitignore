@@ -1,0 +1,47 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Build folders
+.next/
+out/
+dist/
+build/
+node_modules/
+
+# Private/sensitive files
+*.sql
+*.dump
+*.bak
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+database/
+databases/
+dumps/
+exports/
+backup/
+backups/
+
+# Uploaded or private assets
+public/news/uploads/
+tools/outfits/assets/
