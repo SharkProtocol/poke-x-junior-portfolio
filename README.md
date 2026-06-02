@@ -1,4 +1,4 @@
-﻿# Poke X Junior - Portfolio Case Study
+# Poke X Junior - Portfolio Case Study
 
 Technical portfolio case study for a modern web platform developed for an MMORPG/OT-style game project.
 
