@@ -1,4 +1,4 @@
-# Poke X Junior - Portfolio Case Study
+﻿# Poke X Junior - Portfolio Case Study
 
 Technical portfolio case study for a modern web platform developed for an MMORPG/OT-style game project.
 
@@ -111,7 +111,7 @@ Real payments are not active in this public portfolio.
 
 The private project includes several security-oriented decisions:
 
-* Real `.env.local` file kept outside Git
+* Real environment files kept outside Git
 * Operational repository kept private
 * Basic security headers
 * Rate limit on sensitive endpoints
@@ -135,17 +135,38 @@ This repository is therefore a portfolio case study, not a public template.
 
 ---
 
+## Screenshot gallery
+
+| Area            | Preview                                             |
+| --------------- | --------------------------------------------------- |
+| Home            | ![Home page](screenshots/home.png)                  |
+| Ranking         | ![Ranking page](screenshots/ranking.png)            |
+| News            | ![News page](screenshots/news.png)                  |
+| Download        | ![Download page](screenshots/download.png)          |
+| Donate overview | ![Donate overview](screenshots/donate-overview.png) |
+| Donate packages | ![Donate packages](screenshots/donate-packages.png) |
+| Community       | ![Community page](screenshots/community.png)        |
+
+---
+
 ## Repository structure
 
 ```txt
 poke-x-junior-portfolio/
-├─ README.md
-├─ docs/
-│  ├─ architecture.md
-│  ├─ features.md
-│  ├─ security.md
-│  └─ screenshots.md
-└─ screenshots/
+â”œâ”€ README.md
+â”œâ”€ docs/
+â”‚  â”œâ”€ architecture.md
+â”‚  â”œâ”€ features.md
+â”‚  â”œâ”€ security.md
+â”‚  â””â”€ screenshots.md
+â””â”€ screenshots/
+   â”œâ”€ home.png
+   â”œâ”€ ranking.png
+   â”œâ”€ news.png
+   â”œâ”€ download.png
+   â”œâ”€ donate-overview.png
+   â”œâ”€ donate-packages.png
+   â””â”€ community.png
 ```
 
 ---
@@ -161,25 +182,9 @@ poke-x-junior-portfolio/
 
 ## Screenshots
 
-Sanitized screenshots are available in the `screenshots/` directory.
+Screenshots are stored in the `screenshots/` directory.
 
-Public screenshots show the visual result without exposing private data, real accounts, internal IDs, payment tokens, admin-only details, or database information.
-
-### Gallery
-
-* [Home](screenshots/home.png)
-* [Ranking](screenshots/ranking.png)
-* [News](screenshots/news.png)
-* [Donate Overview](screenshots/donate-overview.png)
-* [Donate Packages](screenshots/donate-packages.png)
-* [Download](screenshots/download.png)
-* [Community](screenshots/community.png)
-
-![Home](screenshots/home.png)
-![Ranking](screenshots/ranking.png)
-![Donate Overview](screenshots/donate-overview.png)
-
-Account and admin screenshots were intentionally omitted from the public repository to avoid exposing sensitive or operational data.
+The public screenshots show visual results without exposing private data, real accounts, internal IDs, payment tokens, admin-only details, database information, or real community invite links.
 
 ---
 

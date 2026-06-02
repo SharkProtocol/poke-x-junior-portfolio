@@ -1,4 +1,4 @@
-# Features - Poke X Junior Portfolio
+﻿# Features - Poke X Junior Portfolio
 
 This document summarizes the main feature areas planned and developed in the private Poke X Junior project.
 
@@ -13,7 +13,7 @@ The public website was designed to give players a cleaner and more professional 
 Main areas:
 
 - Landing page
-- Ranking page
+- Player ranking
 - News page
 - Download page
 - Community page
@@ -30,7 +30,7 @@ Main areas:
 
 The private project includes a player account area connected to the game account structure.
 
-Planned/developed features:
+Planned and developed features:
 
 - Login
 - Logout
@@ -58,6 +58,8 @@ Main goals:
 - Show equipped Pokemon information where available
 - Keep technical database fields hidden from the public UI
 
+The public screenshot uses mock data to avoid exposing real player information.
+
 ---
 
 ## News System
@@ -82,11 +84,13 @@ Admin side:
 - Image upload
 - Preview before publishing
 
+The public screenshot uses demo news content only.
+
 ---
 
 ## Donate/Pix Planning
 
-The private project separates support flows into two models:
+The private project separates support flows into two models.
 
 ### Free Support
 
@@ -119,6 +123,8 @@ Main areas:
 - Secure upload handling
 - Manual package delivery route planning
 - Role-based admin checks
+
+Admin screens are intentionally not shown in the public portfolio.
 
 ---
 

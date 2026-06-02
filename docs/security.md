@@ -1,4 +1,4 @@
-# Security - Poke X Junior Portfolio
+﻿# Security - Poke X Junior Portfolio
 
 This document summarizes the security decisions considered in the private Poke X Junior project.
 
