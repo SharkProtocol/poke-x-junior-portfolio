@@ -22,14 +22,14 @@ This public version is intentionally documentation-focused.
 
 This repository exists to demonstrate:
 
-* Technical planning
-* Product organization
-* Web architecture decisions
-* Security awareness
-* Frontend and backend design experience
-* Administrative workflow planning
-* Game website structure
-* Payment flow design without exposing the real implementation
+- Technical planning
+- Product organization
+- Web architecture decisions
+- Security awareness
+- Frontend and backend design experience
+- Administrative workflow planning
+- Game website structure
+- Payment flow design without exposing the real implementation
 
 It is not a cloneable production system.
 
@@ -39,18 +39,18 @@ It is not a cloneable production system.
 
 The private implementation was built with:
 
-* Next.js App Router
-* TypeScript / TSX
-* Tailwind CSS
-* MySQL / MariaDB
-* pnpm
-* Server-side API routes
-* HTTP-only session cookies
-* Protected admin panel
-* Secure upload handling
-* Rate limiting on sensitive routes
-* Planned Mercado Pago integration
-* Private GitHub repository workflow
+- Next.js App Router
+- TypeScript / TSX
+- Tailwind CSS
+- MySQL / MariaDB
+- pnpm
+- Server-side API routes
+- HTTP-only session cookies
+- Protected admin panel
+- Secure upload handling
+- Rate limiting on sensitive routes
+- Planned Mercado Pago integration
+- Private GitHub repository workflow
 
 ---
 
@@ -58,50 +58,50 @@ The private implementation was built with:
 
 ### Public website
 
-* Landing page
-* Player ranking
-* News page
-* Download page
-* Community page
-* Rules page
-* Terms page
-* Privacy policy page
-* Donate overview
-* Free support flow
-* Package support flow
+- Landing page
+- Player ranking
+- News page
+- Download page
+- Community page
+- Rules page
+- Terms page
+- Privacy policy page
+- Donate overview
+- Free support flow
+- Package support flow
 
 ### Player account
 
-* Login
-* Logout
-* Register
-* Account dashboard
-* Character list
-* Character creation
-* Password change
-* Safe character deletion flow
+- Login
+- Logout
+- Register
+- Account dashboard
+- Character list
+- Character creation
+- Password change
+- Safe character deletion flow
 
 ### Admin area
 
-* Protected news dashboard
-* Create news
-* Edit news
-* Delete news
-* Draft/publish workflow
-* Secure image upload
-* Admin-only access control
+- Protected news dashboard
+- Create news
+- Edit news
+- Delete news
+- Draft/publish workflow
+- Secure image upload
+- Admin-only access control
 
 ### Donate/Pix structure
 
 The private project was designed to separate:
 
-* Free support
-* Fixed packages
-* Payment orders
-* Package items
-* First-purchase rewards
-* Internal game delivery flow
-* Future payment webhook handling
+- Free support
+- Fixed packages
+- Payment orders
+- Package items
+- First-purchase rewards
+- Internal game delivery flow
+- Future payment webhook handling
 
 Real payments are not active in this public portfolio.
 
@@ -111,17 +111,17 @@ Real payments are not active in this public portfolio.
 
 The private project includes several security-oriented decisions:
 
-* Real environment files kept outside Git
-* Operational repository kept private
-* Basic security headers
-* Rate limit on sensitive endpoints
-* Upload validation by size, MIME type, extension, and magic bytes
-* Path traversal protection
-* HTTP-only session cookies
-* Production secrets separated from local development
-* Payment flow disabled until final VPS/domain deployment
-* Private deploy checklist
-* Public sanitization checklist before any public exposure
+- Real environment files kept outside Git
+- Operational repository kept private
+- Basic security headers
+- Rate limit on sensitive endpoints
+- Upload validation by size, MIME type, extension, and magic bytes
+- Path traversal protection
+- HTTP-only session cookies
+- Production secrets separated from local development
+- Payment flow disabled until final VPS/domain deployment
+- Private deploy checklist
+- Public sanitization checklist before any public exposure
 
 ---
 
@@ -137,41 +137,41 @@ This repository is therefore a portfolio case study, not a public template.
 
 ## Screenshot gallery
 
-| Area            | Preview                                             |
-| --------------- | --------------------------------------------------- |
-| Home            | ![Home page](screenshots/home.png)                  |
-| Ranking         | ![Ranking page](screenshots/ranking.png)            |
-| News            | ![News page](screenshots/news.png)                  |
-| Download        | ![Download page](screenshots/download.png)          |
+| Area | Preview |
+|---|---|
+| Home | ![Home page](screenshots/home.png) |
+| Ranking | ![Ranking page](screenshots/ranking.png) |
+| News | ![News page](screenshots/news.png) |
+| Download | ![Download page](screenshots/download.png) |
 | Donate overview | ![Donate overview](screenshots/donate-overview.png) |
 | Donate packages | ![Donate packages](screenshots/donate-packages.png) |
-| Community       | ![Community page](screenshots/community.png)        |
+| Community | ![Community page](screenshots/community.png) |
 
 ---
 
 ## Repository structure
 
-* `README.md` - Main public portfolio overview.
-* `docs/architecture.md` - High-level architecture notes.
-* `docs/features.md` - Feature overview and project scope.
-* `docs/security.md` - Security decisions and sanitization strategy.
-* `docs/screenshots.md` - Screenshot strategy and publication rules.
-* `screenshots/home.png` - Home page preview.
-* `screenshots/ranking.png` - Ranking page preview with mock data.
-* `screenshots/news.png` - News page preview with demo content.
-* `screenshots/download.png` - Download center preview without real links.
-* `screenshots/donate-overview.png` - Support center preview without real payments.
-* `screenshots/donate-packages.png` - Package support preview without operational data.
-* `screenshots/community.png` - Community page preview without real invite links.
+- `README.md` - Main public portfolio overview.
+- `docs/architecture.md` - High-level architecture notes.
+- `docs/features.md` - Feature overview and project scope.
+- `docs/security.md` - Security decisions and sanitization strategy.
+- `docs/screenshots.md` - Screenshot strategy and publication rules.
+- `screenshots/home.png` - Home page preview.
+- `screenshots/ranking.png` - Ranking page preview with mock data.
+- `screenshots/news.png` - News page preview with demo content.
+- `screenshots/download.png` - Download center preview without real links.
+- `screenshots/donate-overview.png` - Support center preview without real payments.
+- `screenshots/donate-packages.png` - Package support preview without operational data.
+- `screenshots/community.png` - Community page preview without real invite links.
 
 ---
 
 ## Documentation
 
-* [Features](docs/features.md)
-* [Architecture](docs/architecture.md)
-* [Security](docs/security.md)
-* [Screenshots](docs/screenshots.md)
+- [Features](docs/features.md)
+- [Architecture](docs/architecture.md)
+- [Security](docs/security.md)
+- [Screenshots](docs/screenshots.md)
 
 ---
 
@@ -185,12 +185,12 @@ The public screenshots show visual results without exposing private data, real a
 
 ## Status
 
-* Private operational repository: active
-* Public repository: portfolio/documentation only
-* Real source code: private
-* Real database: private
-* Real payment credentials: private
-* Public version: safe case study
+- Private operational repository: active
+- Public repository: portfolio/documentation only
+- Real source code: private
+- Real database: private
+- Real payment credentials: private
+- Public version: safe case study
 
 ---
 
