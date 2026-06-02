@@ -151,23 +151,18 @@ This repository is therefore a portfolio case study, not a public template.
 
 ## Repository structure
 
-```txt
-poke-x-junior-portfolio/
-|-- README.md
-|-- docs/
-|   |-- architecture.md
-|   |-- features.md
-|   |-- security.md
-|   |-- screenshots.md
-|-- screenshots/
-|   |-- home.png
-|   |-- ranking.png
-|   |-- news.png
-|   |-- download.png
-|   |-- donate-overview.png
-|   |-- donate-packages.png
-|   |-- community.png
-```
+* `README.md` - Main public portfolio overview.
+* `docs/architecture.md` - High-level architecture notes.
+* `docs/features.md` - Feature overview and project scope.
+* `docs/security.md` - Security decisions and sanitization strategy.
+* `docs/screenshots.md` - Screenshot strategy and publication rules.
+* `screenshots/home.png` - Home page preview.
+* `screenshots/ranking.png` - Ranking page preview with mock data.
+* `screenshots/news.png` - News page preview with demo content.
+* `screenshots/download.png` - Download center preview without real links.
+* `screenshots/donate-overview.png` - Support center preview without real payments.
+* `screenshots/donate-packages.png` - Package support preview without operational data.
+* `screenshots/community.png` - Community page preview without real invite links.
 
 ---
 
