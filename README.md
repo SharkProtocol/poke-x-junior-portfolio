@@ -161,9 +161,25 @@ poke-x-junior-portfolio/
 
 ## Screenshots
 
-Screenshots will be added to the `screenshots/` directory.
+Sanitized screenshots are available in the `screenshots/` directory.
 
-Public screenshots should show the visual result without exposing private data, real accounts, internal IDs, payment tokens, admin-only details, or database information.
+Public screenshots show the visual result without exposing private data, real accounts, internal IDs, payment tokens, admin-only details, or database information.
+
+### Gallery
+
+* [Home](screenshots/home.png)
+* [Ranking](screenshots/ranking.png)
+* [News](screenshots/news.png)
+* [Donate Overview](screenshots/donate-overview.png)
+* [Donate Packages](screenshots/donate-packages.png)
+* [Download](screenshots/download.png)
+* [Community](screenshots/community.png)
+
+![Home](screenshots/home.png)
+![Ranking](screenshots/ranking.png)
+![Donate Overview](screenshots/donate-overview.png)
+
+Account and admin screenshots were intentionally omitted from the public repository to avoid exposing sensitive or operational data.
 
 ---
 

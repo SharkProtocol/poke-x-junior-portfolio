@@ -24,6 +24,28 @@ The goal is to sell the quality of the work without exposing the operational pro
 
 ---
 
+## Current Public Screenshot Set
+
+The following sanitized screenshots were generated from the local development build and are safe for the public portfolio repository:
+
+* [Home](../screenshots/home.png)
+* [Ranking](../screenshots/ranking.png)
+* [News](../screenshots/news.png)
+* [Donate Overview](../screenshots/donate-overview.png)
+* [Donate Packages](../screenshots/donate-packages.png)
+* [Download](../screenshots/download.png)
+* [Community](../screenshots/community.png)
+
+Not included on purpose:
+
+* Account dashboard
+* Admin news panel
+* Pix generation screens with QR code
+
+These views were intentionally excluded to avoid exposing real account information, admin-only interfaces, or payment artifacts.
+
+---
+
 ## Recommended Screenshots
 
 ### 1. Home Page
