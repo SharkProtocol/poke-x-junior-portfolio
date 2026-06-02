@@ -153,20 +153,20 @@ This repository is therefore a portfolio case study, not a public template.
 
 ```txt
 poke-x-junior-portfolio/
-â”œâ”€ README.md
-â”œâ”€ docs/
-â”‚  â”œâ”€ architecture.md
-â”‚  â”œâ”€ features.md
-â”‚  â”œâ”€ security.md
-â”‚  â””â”€ screenshots.md
-â””â”€ screenshots/
-   â”œâ”€ home.png
-   â”œâ”€ ranking.png
-   â”œâ”€ news.png
-   â”œâ”€ download.png
-   â”œâ”€ donate-overview.png
-   â”œâ”€ donate-packages.png
-   â””â”€ community.png
+|-- README.md
+|-- docs/
+|   |-- architecture.md
+|   |-- features.md
+|   |-- security.md
+|   |-- screenshots.md
+|-- screenshots/
+|   |-- home.png
+|   |-- ranking.png
+|   |-- news.png
+|   |-- download.png
+|   |-- donate-overview.png
+|   |-- donate-packages.png
+|   |-- community.png
 ```
 
 ---
